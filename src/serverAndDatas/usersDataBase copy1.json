@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "id": "react7",
+      "login": {
+        "username": "react7",
+        "password": "12345"
+      },
+      "profile": {
+        "html_url": "/react7/profile",
+        "avatar_url": ""
+      }
+    },
+    {
+      "id": "ajax77",
+      "login": {
+        "username": "ajax77",
+        "password": "abcde"
+      },
+      "profile": {
+        "html_url": "/ajax77/profile",
+        "avatar_url": ""
+      }
+    },
+    {
+      "id": "sunmoon",
+      "login": {
+        "username": "sunmoon",
+        "password": "abcde7"
+      },
+      "profile": {
+        "html_url": "/sunmoon/profile",
+        "avatar_url": ""
+      }
+    },
+    {
+      "id": "9947777777",
+      "login": {
+        "username": "9947777777",
+        "password": "9947777777"
+      },
+      "profile": {
+        "html_url": "/9947777777/profile",
+        "avatar_url": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+.loading {
+    width: 100%;
+    background-color: #dbdbdb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.loadingContent {
+    position: absolute;
+    background-color: #949494;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.loading .loadingContent span {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.loading li {
+    width: 5px;
+    height: 5px;
+    margin: 5px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #fff;
+    animation: loading 5s infinite;
+}
+
+@keyframes loading {
+    0% {
+        margin: 5px;
+    }
+    50% {
+        margin: 20px 30px;
+    }
+    100% {
+        margin: 5px;
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "students": [
+    {
+      "id": "0002",
+      "name": "Fazila",
+      "surname": "Guliyeva",
+      "birth_Day": "05",
+      "birth_Month": "07",
+      "birth_Year": "2018",
+      "gender": "Female",
+      "grade_Number": "4",
+      "grade_Symbol": "c"
+    },
+    {
+      "id": "676",
+      "name": "gcdgh",
+      "surname": "gcgh",
+      "birth_Day": "02",
+      "birth_Month": "02",
+      "birth_Year": "2012",
+      "gender": "Male",
+      "grade_Number": "2",
+      "grade_Symbol": "a"
+    }
+  ]
+}

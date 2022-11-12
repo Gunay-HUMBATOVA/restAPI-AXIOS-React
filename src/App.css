@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Monoton&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Baloo 2', cursive;
+}
+
+body {
+  background-color: #dbdbdb;
+}
+
+.App {
+   display: flex;
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   text-align: center;
+   justify-content: center;
+   /* align-items: center; */
+}

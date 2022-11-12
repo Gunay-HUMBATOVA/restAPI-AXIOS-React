@@ -1,0 +1,51 @@
+.signUpContainer {
+    width: 100%;
+    margin: 30px;
+    padding: 30px;
+    background-color: #d7d4d4;
+    border: #8b8b8b .4px solid;
+}
+
+.signUpContainer h2 {
+    border: none;
+}
+
+.signUpContainer h5 {
+    font-weight: 100;
+}
+
+.signUpContainer a {
+    color: #0c81f5;
+}
+
+.signUpContainer button {
+    border: none;
+    color: white;
+    margin: 7px 0 40px;
+}
+
+.signUpContainer input {
+    width: 80%;
+    margin: 7px;
+    background-color: #dbdbdb;
+    border: 1px solid #8b8b8b;
+    padding: 5px;
+}
+
+/* repeating code for losing style problem */
+.loginWithFacebook a img {
+    width: 27px;
+    margin-right: 7px;
+}
+.or {
+    border-top: #808080 dashed 2px;
+    height: 30px;
+    margin: 50px 70px;
+}
+.or h4 {
+    position: relative;
+    top: -15px;
+    background-color: #d7d4d4;
+    display: inline-block;
+    padding: 0 15px;
+}

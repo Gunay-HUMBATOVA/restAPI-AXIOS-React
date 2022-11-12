@@ -1,0 +1,151 @@
+.login {
+    background-color: #d7d4d4;
+    width: 100%;
+    margin: 30px;
+    border: #b5b1b1 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loginInputs form {
+    position: relative;
+}
+
+.login h1 {
+    font-family: 'Monoton', cursive;
+    font-weight: 100;
+    margin: 30px;
+}
+
+.loginInputs input:not(:nth-child(5)),
+button {
+    padding: 7px;
+    margin-bottom: 7px;
+    width: 80%;
+}
+
+.loginInputs input::placeholder {
+    color: #635b5b;
+}
+
+.loginInputs input {
+    border: 1px solid #808080;
+    background-color: #8080802b;
+}
+
+.loginInputs input:focus {
+    outline: none;
+    border: 1px solid #0c81f5;
+    background-color: #fff;
+}
+
+.loginInputs input[type="checkbox"] {
+    width: 20px;
+    height: 18px;
+    margin-right: 7px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    bottom: -2px;
+}
+
+.loginInputs input[type="checkbox"]:focus {
+    border-color: #0c81f5;
+}
+
+.loginInputs input[type="checkbox"]:checked {
+    background-color: #fff;
+    border-color: #0c81f5;
+}
+
+.loginInputs input[type="checkbox"]:checked::after {
+    content: '\2713';
+    font-size: 26px;
+    display: block;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: -11px;
+}
+
+.checkboxWrapper {
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.loginInputs button {
+    outline: none;
+    border: none;
+    color: #fff;
+}
+
+.or {
+    border-top: #808080 dashed 2px;
+    height: 30px;
+    margin: 50px 70px;
+}
+
+.or h4 {
+    position: relative;
+    top: -15px;
+    background-color: #d7d4d4;
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.loginWithFacebook a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0c81f5;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.loginWithFacebook a img {
+    width: 27px;
+    margin-right: 7px;
+}
+
+.forgotPassword a,
+.signUp a {
+    color: #0c81f5;
+}
+
+.signUp {
+    margin-top: 50px;
+    vertical-align: middle;
+    align-items: center;
+    justify-self: center;
+    align-content: center;
+    border-top: 1px solid #b5b1b1;
+    border-bottom: 1px solid #b5b1b1;
+    background-color: #dbdbdb;
+}
+
+.signUp span,
+.checkboxWrapper label {
+    color: #635b5b;
+}
+
+.signUp a {
+    margin-left: 7px;
+}
+
+.errorMessage {
+    color: #ff0000;
+    font-weight: 100;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    /* text-align: center; */
+}

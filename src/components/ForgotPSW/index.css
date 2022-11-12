@@ -1,0 +1,54 @@
+.forgotPSW {
+    width: 100%;
+    background-color: #d7d4d4;
+    margin: 30px;
+    padding: 30px;
+    position: relative;
+}
+
+.forgotPSW p {
+    color: #808080;
+}
+
+.forgotPSW, .closeImg, .backLogin, .forgotPSW button {
+    border: 1px solid #949393;
+}
+
+.closeImg {
+    background-image: url('../../images/blockedProfileIcon.png');
+    width: 80px;
+    height: 80px;
+    background-size: contain;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.forgotPSW input,
+.forgotPSW button,
+.forgotPSW .backLogin  {
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.forgotPSW .backLogin {
+    background-color: #dbdbdb;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.forgotPSW button {
+    outline: none;
+    color: #fff;
+}
+
+.forgotPSW .createAccount a{
+    color: #0c81f5;
+}
+
+.forgotPSW .backLogin a {
+    color: black;
+}

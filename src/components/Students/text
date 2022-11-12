@@ -1,0 +1,72 @@
+//idValue
+//nameValue
+//surnameValue
+//birthDayValue
+//birthMonthValue
+//birthYearValue
+//genderValue
+//gradeNValue
+//gradeSValue
+
+// "idRef";
+// "nameRef";
+// "surnameRef";
+// "birthDayRef";
+// "birthMonthRef";
+// "birthYearRef";
+// "genderRef";
+// "gradeNRef";
+// "gradeSRef";
+
+
+
+    // const USER_REGEX = /^\[A-z\][A-z0-9-_]{3,23}$/;
+    // const PWD_REGEX = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%]).{8,24}$/;
+
+    // json-server --watch usersDataBase.json
+
+
+// const idValue = this.getNodeValues("idRef");
+// const nameValue = this.getNodeValues("nameRef");
+// const surnameValue = this.getNodeValues("surnameRef");
+// const birthDayValue = this.getNodeValues("birthDayRef");
+// const birthMonthValue = this.getNodeValues("birthMonthRef");
+// const birthYearValue = this.getNodeValues("birthYearRef");
+// const genderValue = this.getNodeValues("genderRef");
+// const gradeNValue = this.getNodeValues("gradeNRef");
+// const gradeSValue = this.getNodeValues("gradeSRef");
+
+
+// {
+//   "students": [
+//     {
+//       "id": "0001",
+//       "name": "Sohrab",
+//       "surname": "Humbatov",
+//       "birth_Day": "20",
+//       "birth_Month": "04",
+//       "birth_Year": "2014",
+//       "gender": "Male",
+//       "grade_Number": "8",
+//       "grade_Symbol": "a"
+//     },
+//     {
+//       "id": "0002",
+//       "name": "Fazila",
+//       "surname": "Guliyeva",
+//       "birth_Day": "05",
+//       "birth_Month": "07",
+//       "birth_Year": "2018",
+//       "gender": "Female",
+//       "grade_Number": "4",
+//       "grade_Symbol": "c"
+//     }
+//   ]
+// }
+
+
+
+    // const USER_REGEX = /^\[A-z\][A-z0-9-_]{3,23}$/;
+    // const PWD_REGEX = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%]).{8,24}$/;
+
+

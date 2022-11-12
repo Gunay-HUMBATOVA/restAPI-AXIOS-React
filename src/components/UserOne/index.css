@@ -1,0 +1,100 @@
+.userOne {
+    width: 100%;
+    margin:  70px 30px 30px;
+}
+
+.userOne .header h3 {
+    font-weight: 200;
+    color: #000000;
+}
+
+.userOne form,
+.userOne .article {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.userOne form button{
+    color: white;
+    font-size: 16px;
+    width: fit-content;
+    display: block;
+    padding: 0 15px;
+    margin: 30px auto;
+    outline: none;
+    border: 1px solid #39384b;
+}
+
+.userOne .profileImg {
+    background-image: url('../../images/userDefaultAvatar.png');
+    width: 80px;
+    height: 80px;
+    background-size: contain;
+    display: inline-block;
+    margin-top: 30px;
+    border: 1px solid #949393;
+    padding: 20px;
+}
+
+input[type=file]::file-selector-button {
+  border: 1px solid #ffffff;
+  padding: .2em .4em;
+  border-radius: .2em;
+  background-color: #39384b;
+  transition: .5s;
+  color: #ffffff;
+}
+
+input[type=file]::file-selector-button:hover {
+  background-color: #7e7e7e;
+  border: 1px solid #39384b;
+  cursor: pointer;
+}
+
+.changeImgFile input[type=file] {
+  position: absolute;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 84px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  display: block;
+}
+
+.changeImgFile {
+  position: relative;
+  overflow: hidden;
+  color: #0c81f5;
+  margin: 5px 0 40px;
+  display: block;
+}
+
+.changeImgFile:hover {
+    color: #dbdbdb;
+}
+
+.changeImgFile:hover input[type=file] {
+    opacity: 1;
+    filter: alpha(opacity=1);
+}
+
+.userOne .article {
+    margin: 0 auto;
+    text-align: left;
+}
+
+.userOne .article label{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.userOne .article input {
+    margin-left: 15px;
+}
